@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: "Noto Sans";
+        }
+        .clear {
+            clear: both;
+        }
+        body {
+            color: white;
+            text-align: center;
+            background-color: #101010;
+        }
+        header {
+            width: 100%;
+            height: 100px;
+            margin: 0;
+        }
+        #logo {
+            float: left;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+        nav {
+            width: 100%;
+            height: 60px;
+            margin: 0;
+            background-color: #0460D9;
+            border: solid 1px #0460D9;
+        }
+        #menu {
+            float: center;
+            margin-top: 12px;
+            font-size: 24px;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        a:hover {
+            color:#45befb;
+        }
+        #contents {      
+            width: 800px;
+            height: 700px;
+            margin: 0 auto;
+            font-size: 16px;
+            font-weight: 300;
+        }
+        #img {
+            float: left;
+            width: 400px;
+            height: 400px;
+            margin-top: 100px;
+            margin-left: 20px;
+        }
+        #text {
+            float: left;
+            width: 350px;
+            height: 500px;
+            margin-top: 100px;
+            padding-left: 30px;
+            text-align: left;
+        }
+        .bold {
+            font-weight: 600;
+        }
+        h1 {
+            font-size: 28px;
+        }
+        h3 {
+            font-size: 22px;
+        }
+        footer {
+            width: 100%;
+            height: 50px;
+            padding-top: 15px;
+            font-size: 12px;
+            background-color: #0460D9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="title.png" width="200px"></a>
+        </div>
+    </header>
+    <nav>
+        <div id="menu">
+            <a href="#">Profile</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="history.html">History</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="gallery.html">Gallery</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="idol.html">Idol</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="dream.html">Dream</a>
+        </div>
+    </nav>
+    <section id="contents">
+        <div id="img">
+            <img src="profile.png" width="400px">
+        </div>
+        <div id="text">
+            <h1>콘텐츠 크리에이터<br>
+            김경린입니다.</h1><br>
+            <h3>프로필</h3>
+            <span class="bold">생년월일</span> 1999.02.03<br>
+            <span class="bold">취미</span> 보드게임, 음악감상<br>
+            <span class="bold">특기</span> 콘텐츠기획, 영상편집<br>
+            <span class="bold">이메일</span> 772kkr@kaywon.ac.kr<br><br>
+            <h3>주요경력</h3>
+            계원예술대학교 디지털미디어디자인과 재학 중<br>
+            계원예술대학교 2024학년도 홍보대사<br>
+            소통:컬쳐 공동 창업자 겸 부대표<br>
+            샌드박스네트워크 콘텐츠 크리에이터<br>
+            제 20회 안양시 청소년 경연대회 1위
+        </div>
+    </section>
+    <div id="clear"></div>
+    <footer>
+        This website was created as part of a digital media design depatrment class at the kaywon university of the arts & design<br>
+        ⓒ 2024. 772kkr All Rights Reserved.
+    </footer>
+</body>
+</html>

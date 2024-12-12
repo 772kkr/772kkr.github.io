@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: "Noto Sans";
+        }
+        .clear {
+            clear: both;
+        }
+        body {
+            color: white;
+            text-align: center;
+            background-color: #101010;
+        }
+        header {
+            width: 100%;
+            height: 100px;
+            margin: 0;
+        }
+        #logo {
+            float: left;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+        nav {
+            width: 100%;
+            height: 60px;
+            margin: 0;
+            background-color: #0460D9;
+            border: solid 1px #0460D9;
+        }
+        #menu {
+            float: center;
+            margin-top: 12px;
+            font-size: 24px;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        a:hover {
+            color:#45befb;
+        }
+        #contents {      
+            width: 800px;
+            margin: 100px auto;
+            font-size: 16px;
+            font-weight: 300;
+        }
+        table, tr, th, td {
+                border: none;
+                border-collapse: collapse;
+                padding: 10px;
+                text-align: left;
+        }
+        td {
+            height: 200px;
+        }
+        .td_img {
+            width: 300px;
+        }
+        .td_text {
+            width: 500px;
+        }
+        h3 {
+            font-size: 22px;
+        }
+        footer {
+            width: 100%;
+            height: 50px;
+            padding-top: 15px;
+            font-size: 12px;
+            background-color: #0460D9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="title.png" width="200px"></a>
+        </div>
+    </header>
+    <nav>
+        <div id="menu">
+            <a href="profile.html">Profile</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="history.html">History</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="gallery.html">Gallery</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="idol.html">Idol</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Dream</a>
+        </div>
+    </nav>
+    <section id="contents">
+        <table>
+            <tr>
+                <td class="td_img"><img src="dream1.jpg"></td>
+                <td class="td_text"><h3>2025년</h3><h3>계원예술대학교 졸업</h3><br>제 32회 계원조형예술제에서 우수작품으로 선정되며<br>우수한 성적으로 디지털미디어디자인과를 졸업한다.</td>
+            </tr>
+            <tr>
+                <td class="td_img"><img src="dream2.jpg"></td>
+                <td class="td_text"><h3>2026년</h3><h3>XX엔터테인먼트 입사</h3><br>K-POP 시장에서 주목받는 XX엔터테인먼트의<br>기획/프로덕션 직무 신입사원으로 입사한다.</td>
+            </tr>
+            <tr>
+                <td class="td_img"><img src="dream3.jpg"></td>
+                <td class="td_text"><h3>2027년</h3><h3>올해의 게임상 수상</h3><br>사이드 프로젝트로 꾸준히 도전한 보드게임 제작이<br>독일 에센 슈필에서 올해의 게임상을 수상하며 성과를 거둔다.</td>
+            </tr>
+            <tr>
+                <td class="td_img"><img src="dream4.jpg"></td>
+                <td class="td_text"><h3>2028년</h3><h3>메인 프로듀서 데뷔</h3><br>처음으로 메인 디렉팅을 담당한 신인 보이그룹이<br>완성도 높은 세계관과 콘텐츠로 성공적으로 데뷔한다.</td>
+            </tr>
+        </table>
+    </section>
+    <div id="clear"></div>
+    <footer>
+        This website was created as part of a digital media design depatrment class at the kaywon university of the arts & design<br>
+        ⓒ 2024. 772kkr All Rights Reserved.
+    </footer>
+</body>
+</html>
